@@ -1,0 +1,16 @@
+{
+  "name": "docker-test",
+  "version": "0.1.0",
+  "description": "simular hambiente de produccion y QA con docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "nicolas restrepo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
+  }
+}
