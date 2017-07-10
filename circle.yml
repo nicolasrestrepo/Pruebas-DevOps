@@ -4,7 +4,7 @@ machine:
 
 dependencies:        
   override:
-    - docker build -t prueba
+    - docker build -t prueba .
 
 test: 
   override:       
