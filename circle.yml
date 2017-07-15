@@ -14,6 +14,6 @@ test:
 
 deployment: 
   qa: 
-    branch: /feature_. */    
+    branch: /feature_.*/    
     commands:
       - sh deployments/qa.sh
